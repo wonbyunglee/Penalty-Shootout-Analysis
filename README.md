@@ -23,13 +23,13 @@ This study proposes a data-driven approach to increase the probability of succes
 | Team                  | 해당 경기에 참가한 팀                                    |
 | Player                | 승부차기를 진행한 선수명                                  |
 | Position              | 해당 선수의 포지션                                       |
-| Age                   | 해당 선수의 당시 나이                                     |
+| Age                   | 해당 선수의 해당 대회 기준 나이                                     |
 | Goals                 | 해당 선수의 당시까지의 통산 골 수                            |
 | Order                 | 해당 선수의 승부차기 순서                                  |
-| Last                  | 해당 선수의 순서가 마지막이었는지 여부                        |
+| Last                  | 해당 선수의 순서가 마지막이었는지 여부 (나머지 : 0, 마지막 : 1)                        |
 | Period(Club)          | 해당 클럽에 소속되어 있던 기간 (년차)                        |
 | Squad(International)  | 해당 선수가 국가대표팀에 소속되어 있던 기간 (등록 경기 수)        |
-| Score                 | 해당 선수의 승부차기 성공/실패 여부                          |
+| Score                 | 해당 선수의 승부차기 성공/실패 여부  (성공 : 0, 실패 : 1)                          |
 
 ### Method
 
